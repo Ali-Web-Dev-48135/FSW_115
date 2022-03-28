@@ -1,0 +1,38 @@
+ {
+    "appetizers": [
+        {
+        "name": "Carrot Sauce",
+        "ingredients": ["carrot salad", "carrot sauce", "onions"],
+        "description": "A baic carrot sauce appetizer"
+
+    }],
+    "cold sandwich":[
+        {
+        "name": "Cold hot dog sandwich",
+        "ingredients": ["cold hot dog", " cold mustard", "some cold beef pieces" ],
+        "description": "A cold sandwich"
+    }],
+    "hot sandwich": [
+        {
+            "name": "A hot sandwich",
+            "ingredients": ["one hot dog", "some warm beans", "some warm lemons"],
+            "description": "A very hot sandwich yet very tasty"
+        }
+    ],
+    "desserts": [
+        {
+            "name": "A nice dessert",
+            "ingredients": ["chocolate sauce", "some pie", "some ice cream"],
+            "description": "A very nice dessert"
+        }
+    ],
+    "drinks": [
+        {
+            "name": "drinks",
+            "ingredients": ["root beer", "lemon juice", "a nice pepsi"],
+            "description": "A nice drink to go along your meal"
+        }
+    ]
+
+ }
+
