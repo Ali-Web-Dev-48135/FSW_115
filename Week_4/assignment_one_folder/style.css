@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: lightskyblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ul,li {
+    list-style: none;
+}
+
+li {
+    /* border: 0.2rem solid lightblue; */
+    width: 100%;
+    padding: 0.3rem 0.3rem;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    margin-bottom: 0.3rem;
+    /* border-bottom: 0.1rem solid black; */
+    
+    
+}
+
+li:hover {
+    color: darkgreen;
+}
+
+h2 {
+    margin: 0.5rem auto;
+}
+
+.toDoContainer {
+    padding: 0.5rem 0rem 0rem 0rem;
+    width: 50%;
+    height:222px;
+    margin: 0rem auto;
+    border: 0.2rem solid white;
+    box-shadow: 1px 1px 1px black;
+}
+
+.deleteBtn {
+
+    color: black;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    border: none;
+    width: 4rem;
+    font-weight:500;
+    margin: 0rem 0rem 0rem 0.3rem;
+    cursor: pointer;
+}
+
+.deleteBtn:hover {
+    background-color: lightgreen;
+    color: black;
+    
+}
+
+.toDoInputWrapper {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    padding: 0.2rem 0.2rem;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    border: 0.1rem solid darkgray;
+    border-radius: 0.5rem;
+}
+
+.toDoInput {
+    width: 20%;
+}
+
+.toDoDescription {
+    width: 20rem;
+    background-color: lavender;
+    border-radius: 0.2rem;
+}
+
+.toDoDescription:focus{
+    outline: none;
+    border: none;
+}
+
+input:focus {
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.strikedThrough {
+    text-decoration: line-through;
+    color: green;
+}
+
+.inputCheckBox[type=checkbox] {
+    cursor: pointer;
+}
