@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.main-header {
+    width: 90%;
+    margin: 0.5rem auto 0rem auto;
+    text-align: center;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin: 2rem auto 2rem auto;
+    padding: 0.1rem;
+}
+
+button {
+    width: 10rem;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    border: 1px solid black;
+    outline: none;
+    background-color: lightblue;
+    color: darkgreen;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: white;
+    color: darkgreen;
+    cursor: pointer;
+}
+
+
+
+.dataWrapper {
+    /* border: 0.1rem solid yellow; */
+    width: 90%;
+    margin: 0rem auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0.5rem;
+    padding: 0.3rem;
+}
+.dataHolder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 0.1rem solid lightgray;
+    width: 100%;
+    background-color: lightgray;
+    padding: 0.2rem;
+}
+
+.dataHolder img {
+    max-width: 7rem;
+}
+
+.dataHolder p {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 0.2rem;
+    color: black;
+}
+
+.secondPageLink {
+    text-decoration: none;
+    width: 12rem;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    border: 1px solid black;
+    outline: none;
+    background-color: lightblue;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+    color: darkgreen;
+    text-align: center;
+
+}
+
+
+@media only screen and (min-width:480px ) {
+    .dataWrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
