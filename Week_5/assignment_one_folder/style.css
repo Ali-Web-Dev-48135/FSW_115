@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: lightskyblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.toDoContainer {
+
+    padding: 0.5rem 0.5rem;
+    width: 70%;
+    margin: 0.5rem auto;
+    border: 0.2rem solid white;
+    box-shadow: 1px 1px 1px lightgray;
+}
+
+/* toDoElementDiv Styles */
+*.toDoElementDiv {
+    vertical-align: middle;
+}
+#latestBtn {
+    text-align: center;
+    background-color: lightgreen;
+    width: 25%;
+    padding: 0.6rem;
+    border-radius: 0.2rem;
+    color: black;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+
+}
+.toDoElementDiv {
+    border: 0.2px solid darkmagenta;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: row;
+    gap: 1.2rem;
+    padding: 0.4rem 0.4rem;
+    margin: 0.2rem 0rem;
+}
+
+
+.toDoElementDiv button {
+    width: 15%;
+    vertical-align: middle;
+    background-color: lightcoral;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.2rem;
+
+}
+
+.toDoElementDiv button:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+.toDoElementDiv p:first-of-type {
+    
+    padding: 0.2rem 0rem 0rem 0rem;
+
+}
+
+
+
+.toDoElementDiv input[type="checkbox"] {
+    cursor: pointer;
+    
+}
+
+
+/* Posting Form Styles */
+.main-header {
+    margin: 0.5rem 0rem;
+}
+
+
+form {
+    border: 0.2rem solid lightyellow;
+    box-shadow: 1px 1px 1px lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    width: 70%;
+    padding: 2rem 0.3rem 2rem 0.3rem;
+    margin-top: 0.5rem;
+}
+
+form label {
+    /* border: 0.1rem solid black; */
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+
+}
+
+form input {
+    border: none;
+    border: 1px solid black;
+    width: 50%;
+    text-align: center;
+    padding: 0.2rem 0rem;
+    border-radius: 0.2rem;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 0.3rem;
+}
+
+
+form input:focus{
+    text-align: center;
+    outline: none;
+    border: none;
+    background-color: white;
+}
+
+form #taskPrice {
+    width: 20%;
+}
+
+form button {
+    cursor: pointer;
+    width: 25%;
+    border: 1px solid black;
+    background-color: lightgreen;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 500;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+
+}
+
+form button:hover
+{
+    background-color: darkgreen;
+    color: white;
+}
+
+.completeToDoStyle {
+    text-decoration: line-through;
+}
+
+.hideIsComplete
+{
+    visibility: hidden;
+}
+
+
+
+
