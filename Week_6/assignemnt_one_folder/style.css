@@ -1,0 +1,99 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    background-color: lightskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.starWarsWrapper
+{
+    margin-top: 5rem;
+    border: 0.3rem solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+.starWarsWrapper .name_header 
+{
+    font-size: 2.2rem;
+}
+
+.starWarsWrapper .movie_header,
+.starWarsWrapper .vehicle_header
+{
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.starWarsWrapper .movies_ul
+{
+    list-style: none;
+    text-align: center;
+    
+}
+
+
+
+.starWarsWrapper .vehicles_ul
+{
+    text-align: center;
+    list-style: none;
+}
+
+.starWarsWrapper .vehicles_ul,
+.starWarsWrapper .movies_ul
+{
+    margin-top: 0.5rem;
+}
+
+@media only screen and (min-width: 480px) {
+    body
+    {
+
+        background: url("./star_wars_image.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: white;
+    }
+
+    .starWarsWrapper {
+        width: 90%;
+        margin: 3rem auto;
+        border: none;
+
+    }
+    .starWarsWrapper .vehicles_ul
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 5rem;
+        color: lightgreen;
+        
+    }
+    .starWarsWrapper .movies_ul 
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 5rem;
+        color: white;
+    }
+}
